@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-05-16 17:09:29.114191",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "openai_section",
+  "enable_openai",
+  "openai_api_key",
+  "openai_model"
+ ],
+ "fields": [
+  {
+   "fieldname": "openai_section",
+   "fieldtype": "Section Break",
+   "label": "OpenAi Setup Business Card AI Setup"
+  },
+  {
+   "default": "0",
+   "fieldname": "enable_openai",
+   "fieldtype": "Check",
+   "label": "Enable OpenAi"
+  },
+  {
+   "fieldname": "openai_api_key",
+   "fieldtype": "Data",
+   "label": "OpenAi API Key"
+  },
+  {
+   "description": "<p>\n  \ud83e\udde0 <b>Recommned OpenAI Model:</b> gpt-4.1-nano<br>\n  \ud83d\udd17 <a href=\"https://platform.openai.com/docs/models\" target=\"_blank\" style=\"color:#007bff; text-decoration:none;\">\n    View OpenAI Models\n  </a>\n</p>\n",
+   "default": "gpt-4.1-nano",
+   "fieldname": "openai_model",
+   "fieldtype": "Data",
+   "label": "OpenAI Model"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2026-05-16 17:09:39.372252",
+ "modified_by": "Administrator",
+ "module": "Pratap Crm Ai",
+ "name": "Pratap CRM Ai Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

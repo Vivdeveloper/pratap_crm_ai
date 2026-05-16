@@ -10,10 +10,20 @@
  "name": "crm-ai",
  "owner": "Administrator",
  "page_name": "crm-ai",
- "roles": [],
+ "roles": [
+  {
+   "role": "Sales User"
+  },
+  {
+   "role": "Sales Manager"
+  },
+  {
+   "role": "System Manager"
+  }
+ ],
  "script": null,
  "standard": "Yes",
  "style": null,
  "system_page": 1,
- "title": "CRM Ai"
+ "title": "Business Card Scanner"
 }
